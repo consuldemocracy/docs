@@ -34,6 +34,12 @@ We suggest to follow these steps to keep a good track of the changes you're abou
 
 > **Working on your first Pull Request?** You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
 
+## How to contribute from your computer
+
+This documentation is hosted online at [Gitbook](https://www.gitbook.com) for free, and its composed by [Markdown](https://es.wikipedia.org/wiki/Markdown) text files. Markdown its a lightweight markup language to give style to paragraphs, lists, etc... Check [Gitbook's Markdown syntax guide](https://toolchain.gitbook.com/syntax/markdown.html)
+
+To visualize on your browser how your changes would look you can use [https://github.com/GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) to start a localhost server that will render the documentation.
+
 ## Other ways of contributing
 
 We'll appreciate any kind of contribution to Consul Docs. Even if you can't contribute to it writing new docs, you still can:

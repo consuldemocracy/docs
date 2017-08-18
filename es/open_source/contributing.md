@@ -2,7 +2,7 @@
 
 Te agradecemos que quieras colaborar contribuyendo a la Documentación de [Consul](https://github.com/consul/consul). Aquí tienes una guía donde consultar cómo sugerir cambios y mejoras al proyecto.
 
-## Code of conduct
+## Código de Conducta
 
 Los miembros del proyecto y la comunidad de personas que contribuyen a él se adhieren a un código de conducta que se puede consultar en el archivo [CODE_OF_CONDUCT_ES.md](CODE_OF_CONDUCT_ES.md).
 
@@ -35,6 +35,12 @@ Te sugerimos seguir los siguientes pasos para facilitar el seguimiento de los ca
 - El equipo de Consul revisará tu PR y podrá sugerir cambios si son necesarios. Una vez esté todo bien, tus cambios serán introducidos en el proyecto :)
 
 > **¿Es tu primer Pull Request?** Puedes aprender cómo contribuir a un proyecto en Github siguiendo los tutoriales [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github) (en inglés).
+
+## Cómo contribuir desde tu ordenador
+
+Esta documentación se aloja online en [Gitbook](https://www.gitbook.com) de forma gratuita, y está formada de ficheros de texto [Markdown](https://es.wikipedia.org/wiki/Markdown). Markdown es un lenguage de marcado sencillo para dar estilo a párrafos, listas etc... Consulta [la guía de Gitbook sobre Markdown](https://toolchain.gitbook.com/syntax/markdown.html)
+
+Para visualizar en tu navegador como se verían tus cambios puedes usar [https://github.com/GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) para levantar un servidor local que sirva la documentación.
 
 ## Otras formas de contribuir
 
