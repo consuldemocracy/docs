@@ -38,9 +38,17 @@ Te sugerimos seguir los siguientes pasos para facilitar el seguimiento de los ca
 
 ## Cómo contribuir desde tu ordenador
 
+### Gitbooks
+
 Esta documentación se aloja online en [Gitbook](https://www.gitbook.com) de forma gratuita, y está formada de ficheros de texto [Markdown](https://es.wikipedia.org/wiki/Markdown). Markdown es un lenguage de marcado sencillo para dar estilo a párrafos, listas etc... Consulta [la guía de Gitbook sobre Markdown](https://toolchain.gitbook.com/syntax/markdown.html)
 
 Para visualizar en tu navegador como se verían tus cambios puedes usar [https://github.com/GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) para levantar un servidor local que sirva la documentación.
+
+### Markdown Linter
+
+Para mantener la consistencia en la sintaxis de ficheros Markdown este proyecto usa [Markdown Linter](https://github.com/markdownlint/markdownlint) junto a un fichero de configuración `.mdlrc` en el directorio raiz.
+
+Para usarla instala la herramienta con `gem install mdl` y ejecuta después `mdl .`
 
 ## Otras formas de contribuir
 

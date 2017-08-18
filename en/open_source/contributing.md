@@ -36,9 +36,17 @@ We suggest to follow these steps to keep a good track of the changes you're abou
 
 ## How to contribute from your computer
 
+### Gitbooks
+
 This documentation is hosted online at [Gitbook](https://www.gitbook.com) for free, and its composed by [Markdown](https://es.wikipedia.org/wiki/Markdown) text files. Markdown its a lightweight markup language to give style to paragraphs, lists, etc... Check [Gitbook's Markdown syntax guide](https://toolchain.gitbook.com/syntax/markdown.html)
 
 To visualize on your browser how your changes would look you can use [https://github.com/GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) to start a localhost server that will render the documentation.
+
+### Markdown Linter
+
+To maintain Markdown syntax consistency we use [Markdown Linter](https://github.com/markdownlint/markdownlint) and a `.mdlrc` file that holds its configuration on the project's root directory.
+
+To check your changes have no linting issues you first have to install the tool with `gem install mdl` and then execute it with `mdl .`
 
 ## Other ways of contributing
 
