@@ -1,8 +1,7 @@
 # Instalación de Prerrequisitos
 
-## [Linux](linux.html)
+## [Linux](https://consul_docs.gitbooks.io/docs/content/es/getting_started/prerequisites/linux.html)
 
-## [macOS](macos.html)
+## [macOS](https://consul_docs.gitbooks.io/docs/content/es/getting_started/prerequisites/macos.html)
 
-## [Windows](windows.html)
-
+## [Windows](https://consul_docs.gitbooks.io/docs/content/es/getting_started/prerequisites/windows.html)
