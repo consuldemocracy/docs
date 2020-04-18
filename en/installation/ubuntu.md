@@ -35,10 +35,10 @@ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-Finally, install Ruby 2.4.9, which will take a few minutes:
+Finally, install Ruby 2.5.8, which will take a few minutes:
 
 ```bash
-rbenv install 2.4.9
+rbenv install 2.5.8
 ```
 
 ## Bundler
@@ -46,9 +46,9 @@ rbenv install 2.4.9
 Check we're using the Ruby version we've just installed:
 
 ```bash
-rbenv global 2.4.9
+rbenv global 2.5.8
 ruby -v
-=> ruby 2.4.9p354
+=> ruby 2.5.8p224
 ```
 
 And install Bundler with:

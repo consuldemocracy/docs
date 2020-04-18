@@ -63,10 +63,10 @@ por úlitmo, volvemos a cargar el .bashrc para poder ejecutar RVM
 source ~/.bashrc
 ```
 
-con todo esto, deberías poder instalar la versión de ruby con rvm, por ejemplo la 2.4.9:
+con todo esto, deberías poder instalar la versión de ruby con rvm, por ejemplo la 2.5.8:
 
 ```
-rvm install 2.4.9
+rvm install 2.5.8
 ```
 
 ## Bundler
