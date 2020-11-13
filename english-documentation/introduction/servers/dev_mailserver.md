@@ -51,3 +51,14 @@ In this example we used [Mailgun](https://www.mailgun.com/).
 
 You can also use Mailgun to production, adding your custom domain. Mailgun’s logs sent and delivered emails.
 
+## Possible errors
+
+If after this configuration emails are still not sent, try running these commands (considering you are using the production version)
+
+```
+bin/rake db:migrate RAILS_ENV=production
+bin/rake db:seed RAILS_ENV=production
+bin/rake assets:precompile RAILS_ENV=production
+```
+
+And then relaunch the server again
