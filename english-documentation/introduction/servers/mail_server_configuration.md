@@ -1,4 +1,4 @@
-# Development Mail Server
+# Mail Server Configuration
 
 This is a example to how integrate a mailing service with a development environment of Consul.
 
