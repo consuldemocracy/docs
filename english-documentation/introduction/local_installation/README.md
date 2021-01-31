@@ -1,15 +1,16 @@
 # Local installation
 
-Before installing Consul and having it up and running make sure you all [prerequisites](prerequisites.md) installed.
+1. Before installing Consul and having it up and running make sure all [prerequisites](prerequisites.md) are installed.
 
-1. First, clone the [Consul Github repository](https://github.com/consul/consul/) and enter the project folder:
+2. After you have fully loaded and checked the installation of [prerequisites](prerequisites.md)
+clone the [Consul Github repository](https://github.com/consul/consul/) and enter the project folder:
 
 ```bash
 git clone https://github.com/consul/consul.git
 cd consul
 ```
 
-1. Install the Ruby version we need with your Ruby version manager. Here are some examples:
+3. Install the Ruby version we need with your Ruby version manager. Here are some examples:
 
 ```bash
 rvm install `cat .ruby-version` # If you're using RVM
@@ -17,26 +18,26 @@ rbenv install `cat .ruby-version` # If you're using rbenv
 asdf install ruby `cat .ruby-version` # If you're using asdf
 ```
 
-1. Check we're using the Ruby version we've just installed:
+4. Check we're using the Ruby version we've just installed:
 
 ```bash
 ruby -v
 => # (it should be the same as the version in the .ruby-version file)
 ```
 
-1. Install [Bundler](http://bundler.io/):
+5. Install [Bundler](http://bundler.io/):
 
 ```bash
 gem install bundler --version 1.17.1
 ```
 
-1. Install the required gems using Bundler:
+6. Install the required gems using Bundler:
 
 ```bash
 bundle
 ```
 
-1. Copy the environment example configuration files inside new readable ones:
+7. Copy the environment example configuration files inside new readable ones:
 
 ```bash
 cp config/database.yml.example config/database.yml
@@ -44,8 +45,10 @@ cp config/secrets.yml.example config/secrets.yml
 ```
 
 And setup database credentials with your `consul` user in your new `database.yml` file.
+# Had issues with progress past this point. I think you need implicit instruction on the edit of database.yml! Otherwise rake tasks abort!
 
-1. Run the following [Rake tasks](https://github.com/ruby/rake) to create and fill your local database with the minimum data needed to run the application:
+# On recent install rake loaded v 13.0.3 which caused the process to stall
+8. Run the following [Rake tasks](https://github.com/ruby/rake -v 13.0.1) to create and fill your local database with the minimum data needed to run the application:
 
 ```bash
 rake db:create
@@ -54,13 +57,13 @@ rake db:dev_seed
 rake db:test:prepare
 ```
 
-1. Check everything is fine by running the test suite \(beware it might take more than an hour\):
+9. Check everything is fine by running the test suite \(beware it might take more than an hour\):
 
 ```bash
 bin/rspec
 ```
 
-1. Now you have all set, run the application:
+10. Now you have all set, run the application:
 
 ```bash
 bin/rails s
