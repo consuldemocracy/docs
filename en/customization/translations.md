@@ -6,7 +6,7 @@ Currently, CONSUL is totally or partially translated to multiple languages. You 
 
 Please [join the translators](https://crwd.in/consul) to help us complete existing ones, or contact us through [CONSUL's gitter](https://gitter.im/consul/consul) to become a proofreader and validate translators' contributions.
 
-If your language isn't already present in the Crowdin project, please [open an issue](https://github.com/consul/consul/issues/new?title=New language&body=Hello I would like to have my language INSERT YOUR LANGUAGE NAME added to CONSUL) and we'll set it up in a breeze.
+If your language isn't already present in the Crowdin project, please [open an issue](<https://github.com/consul/consul/issues/new?title=New language&body=Hello I would like to have my language INSERT YOUR LANGUAGE NAME added to CONSUL>) and we'll set it up in a breeze.
 
 If you want to check existing translations of the user-facing texts you can find them organized in YML files under `config/locales/` folder. Take a look at the official Ruby on Rails [internationalization guide](http://guides.rubyonrails.org/i18n.html) to better understand the translations system.
 
